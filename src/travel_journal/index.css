@@ -7,7 +7,7 @@
 body{
     max-inline-size: 2000px;
     margin: 0;
-    font-family: 'Figtree' 'Inter';
+    font-family: 'Figtree' sans-serif;
     font-size: 1rem;
     overflow:auto;
 

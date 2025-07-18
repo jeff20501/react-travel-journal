@@ -1,5 +1,5 @@
 import { Header } from "./Components/Header";
-import { Entry } from "./Components/entry";
+import { Entry } from "./Components/Entry";
 import locationData from './Components/data';
 import './Components/travel-journal.css';
 

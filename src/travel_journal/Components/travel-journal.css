@@ -1,0 +1,111 @@
+img{
+    display: block;
+    max-inline-size: 100%;
+}
+
+a{
+    color: gray;
+}
+
+a:hover{
+    color: rgb(196, 65, 65);
+}
+
+h2{
+    color: rgb(47, 52, 54);
+}
+.header{
+    background-color: rgb(196, 65, 65);
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header h1{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+.globe-logo{
+    max-inline-size: 40px;
+    block-size: 40px;
+}
+
+
+.location-info{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-inline-size: 800px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    @media(width<850px){
+        flex-wrap: wrap;
+        margin-left: 0;
+        padding-left: 10px;
+        justify-content: center;
+    }
+}
+
+.additional-info{
+    max-inline-size: 350px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.location-image{
+    max-inline-size: 200px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.location-image:hover{
+    transform: scale(1.3);
+}
+
+.location{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.location div{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+
+.location-png{
+    max-inline-size: 20px;
+    block-size: 20px;
+}
+
+.location-name{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: .7s;
+}
+.location-name:hover{
+    transform: scale(1.1);
+}
+
+.location-name a{
+    text-decoration: none;
+    color: black;
+}
+
+.location-name a:hover{
+    color: rgb(196, 65, 65);
+}
+
+.dates{
+    font-weight: bold;
+    color: rgb(47, 52, 54);
+}
